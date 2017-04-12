@@ -1,0 +1,11 @@
+use warnings;
+use strict;
+
+sub compress($str){
+    return "Lista.";
+}
+
+print "Please, insert a string to be compressed:";
+chomp(my $str = <STDIN>);
+
+print compress($str);
